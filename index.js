@@ -6,4 +6,10 @@ document.getElementById('fruits').style.textTransform = 'Uppercase'
 
 document.getElementById('vegetables').style.textTransform = 'Uppercase'
 
-let add = document.createElement('fruList')
+let fruit = document.createElement('li');
+fruit.innerHTML = "Beetroot";
+document.getElementById('fruList').appendChild(fruit)
+
+let vege = document.createElement('li');
+vege.innerHTML =" Cauliflower";
+document.getElementById('vegList').appendChild(vege)
